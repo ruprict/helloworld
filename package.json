@@ -1,0 +1,15 @@
+{
+  "name": "helloworld",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ruprict/helloworld.git",
+  "author": "Glenn Goodrich <glenn.goodrich@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^5.0.0",
+    "zombie": "^5.0.7"
+  },
+  "scripts":{
+    "test": "node_modules/mocha/bin/mocha"
+  }
+}
