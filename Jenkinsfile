@@ -4,7 +4,7 @@ node {
     checkout scm
 
   stage 'Setup'
-    sh 'yarn install'
+    sh 'npm install'
 
   stage 'Mocha test'
     sh './node_modules/mocha/bin/mocha'
