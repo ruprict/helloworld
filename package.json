@@ -9,7 +9,10 @@
     "mocha": "^5.0.0",
     "zombie": "^5.0.7"
   },
-  "scripts":{
+  "scripts": {
     "test": "node_modules/mocha/bin/mocha --exit"
+  },
+  "dependencies": {
+    "winston": "^2.4.0"
   }
 }
