@@ -1,6 +1,6 @@
 {
   "name": "helloworld",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "repository": "https://github.com/ruprict/helloworld.git",
   "author": "Glenn Goodrich <glenn.goodrich@gmail.com>",
