@@ -13,5 +13,3 @@ node {
     echo 'prune and cleanup'
     sh 'rm node_modules -rf'
 }
-
-
