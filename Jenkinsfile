@@ -9,7 +9,7 @@ node {
   stage 'Mocha test'
     sh 'npm test'
 
-  stage 'Cleanup'
+  stage 'CleanUp'
     echo 'prune and cleanup'
     sh 'rm node_modules -rf'
 }
