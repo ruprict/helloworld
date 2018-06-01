@@ -6,7 +6,7 @@ node {
   stage 'Setup'
     sh 'npm install'
 
-  stage 'Mocha test'
+  stage 'Mocha    test'
     sh 'npm test'
 
   stage 'CleanUp and Prune'
