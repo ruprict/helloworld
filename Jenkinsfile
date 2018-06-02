@@ -3,7 +3,7 @@ node {
   stage 'Checkout'
     checkout scm
 
-  stage 'Setup'
+  stage 'Setup dis'
     sh 'npm install'
 
   stage 'Mocha    test'
